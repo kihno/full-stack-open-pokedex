@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Routes, Route, useMatch } from 'react-router-dom'
+/* eslint-disable no-unused-vars */
+/* test will not pass unless Router is specified, gives cannot declare Router inside Router error otherwise */
+import { BrowserRouter as Router, Routes, Route, useMatch } from 'react-router-dom'
 import { useApi } from './useApi'
 import LoadingSpinner from './LoadingSpinner'
 import ErrorMessage from './ErrorMessage'
